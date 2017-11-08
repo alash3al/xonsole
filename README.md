@@ -32,3 +32,9 @@ There is a tool called [`box`](https://github.com/box-project/box2) included wit
 php box build
 ```
 and you will find the `app.phar` file that you can distribute anywhere!
+
+# Author
+I'm [Mohammed Al Ashaal](http://alash3al.github.io), a Backend Ninja!
+
+# Contribution
+Just create a pull request with your changes and I'll review then merge if needed.
