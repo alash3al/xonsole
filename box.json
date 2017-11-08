@@ -1,0 +1,9 @@
+{
+    "directories": ".",
+    "chmod": "0755",
+    "main": "app.php",
+    "output": "app.phar",
+    "stub": true,
+    "compactors": "Herrera\\Box\\Compactor\\Php",
+    "compression": "GZ"
+}

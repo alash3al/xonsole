@@ -1,0 +1,25 @@
+{
+    "name": "alash3al/xonsole",
+    "description": "A tiny framework around laravel console, so you can use laravel console outside larave itself",
+    "keywords": ["phar", "laravel", "console", "cli", "command"],
+    "homepage": "http://github.com/alash3al/xonsole",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammed Al Ashaal",
+            "email": "m7medalash3al@gmail.com",
+            "homepage": "http://alash3al.github.io"
+        }
+    ],
+    "require": {
+        "illuminate/console": "^5.5",
+        "illuminate/container": "^5.5",
+        "illuminate/events": "^5.5",
+        "filp/whoops": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xonsole\\Commands\\": "commands/"
+        }
+    }
+}
